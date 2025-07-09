@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "usuario",
+						"type": "address"
+					}
+				],
+				"name": "consultarSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositar",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interfaceIBancario.sol": "IBancario"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interfaceIBancario.sol": {
+			"keccak256": "0xd3ca46e14a108b8ec6c5650aab683df5399ed970b9128b1ca23f252b33b95104",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fab8bcdeb0f0426b72fb2c2c7ac5c7ca8420523d4487669dd8f0919d456f13d6",
+				"dweb:/ipfs/QmYWXpH7Znw16wGmCCWwepZ6fH8ECqovopcj21VMb8Guhf"
+			]
+		}
+	},
+	"version": 1
+}

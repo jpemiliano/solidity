@@ -1,0 +1,146 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_cofre",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "acao",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "usuario",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "valor",
+						"type": "uint256"
+					}
+				],
+				"name": "Interacao",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "cofreEndereco",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "enviarDeposito",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "valor",
+						"type": "uint256"
+					}
+				],
+				"name": "requisitarSaque",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "verMeuSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"enviarDeposito()": {
+					"notice": "Deposita Ether no Cofre usando interface"
+				},
+				"requisitarSaque(uint256)": {
+					"notice": "Solicita saque do Cofre"
+				},
+				"verMeuSaldo()": {
+					"notice": "Consulta saldo pessoal no Cofre"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exemploCofre/contratoCliente.sol": "Cliente"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exemploCofre/contratoCliente.sol": {
+			"keccak256": "0xad5648522538b75e40171e4d15273e4e085c8bc61cc3b2633710a24702ba082e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01c6e5f32000546036f68e22a2dba598c4a36d83f5d7fcddb04e6b8b63361c54",
+				"dweb:/ipfs/Qmd7kHwEAhm3BLi9kJzMzUfRyJ5KkAEfFyN1fD3Z9dCJiQ"
+			]
+		},
+		"exemploCofre/interfaceICofre.sol": {
+			"keccak256": "0xbdfcb30bc028dd4ca3ac36b672fde24f8c97a06092f14d3b3120be107e982fc6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6a7a9701d2024a3a34c3ed7df01cdad98d29d60940f9a3faec10aa8f0bb69fe",
+				"dweb:/ipfs/QmTcmKZPVJpPnABQkMVz3tL8wXmD9ppWY7JYBuAs5B9Huo"
+			]
+		}
+	},
+	"version": 1
+}

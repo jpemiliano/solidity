@@ -1,0 +1,160 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "de",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "valor",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposito",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "para",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "valor",
+						"type": "uint256"
+					}
+				],
+				"name": "Saque",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "usuario",
+						"type": "address"
+					}
+				],
+				"name": "consultarSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "creditos",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositar",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "valor",
+						"type": "uint256"
+					}
+				],
+				"name": "sacar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"consultarSaldo(address)": {
+					"notice": "Consulta saldo do endereço especificado"
+				},
+				"depositar()": {
+					"notice": "Permite depósito de Ether"
+				},
+				"sacar(uint256)": {
+					"notice": "Permite saque do saldo acumulado"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exemploCofre/contratoCofre.sol": "Cofre"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exemploCofre/contratoCofre.sol": {
+			"keccak256": "0xa8c28b82c8b2f55ff8523df93531f33d5d0e8181ce9a469f0a1e21f34de29f5d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ea88563c05b86fe9f48bd0e3a50afd3c5c9521464d1c148a0ed0c6cdd753732f",
+				"dweb:/ipfs/QmSYTassPmrekwLmrtUM1BSck7sNzdL6kcM9dV7MgeyLWw"
+			]
+		},
+		"exemploCofre/interfaceICofre.sol": {
+			"keccak256": "0xbdfcb30bc028dd4ca3ac36b672fde24f8c97a06092f14d3b3120be107e982fc6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6a7a9701d2024a3a34c3ed7df01cdad98d29d60940f9a3faec10aa8f0bb69fe",
+				"dweb:/ipfs/QmTcmKZPVJpPnABQkMVz3tL8wXmD9ppWY7JYBuAs5B9Huo"
+			]
+		}
+	},
+	"version": 1
+}

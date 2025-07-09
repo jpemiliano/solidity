@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "de",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "valor",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposito",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "usuario",
+						"type": "address"
+					}
+				],
+				"name": "consultarSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositar",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contratoBancario.sol": "Bancario"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contratoBancario.sol": {
+			"keccak256": "0x14325e974f3b5939d1b8a948c00483476a38993cd14f268cfaf065f75b7780f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://071159ae2478cd1282efd2e3182ef5c19e1445cb2dbe9ecc871310b9b009dc60",
+				"dweb:/ipfs/QmcU5X5Jx3DejqczaieyWzg6BNjjvsawHo3VMrKtUFeiWR"
+			]
+		},
+		"interfaceIBancario.sol": {
+			"keccak256": "0xd3ca46e14a108b8ec6c5650aab683df5399ed970b9128b1ca23f252b33b95104",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fab8bcdeb0f0426b72fb2c2c7ac5c7ca8420523d4487669dd8f0919d456f13d6",
+				"dweb:/ipfs/QmYWXpH7Znw16wGmCCWwepZ6fH8ECqovopcj21VMb8Guhf"
+			]
+		}
+	},
+	"version": 1
+}
