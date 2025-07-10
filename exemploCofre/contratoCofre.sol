@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 import "./interfaceICofre.sol";
-contract Cofre is ICofre {
+contract Cofre {
     mapping(address => uint256) public creditos;
 
     event Deposito(address indexed de, uint256 valor);

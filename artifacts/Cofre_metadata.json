@@ -140,11 +140,11 @@
 	},
 	"sources": {
 		"exemploCofre/contratoCofre.sol": {
-			"keccak256": "0xa8c28b82c8b2f55ff8523df93531f33d5d0e8181ce9a469f0a1e21f34de29f5d",
+			"keccak256": "0x68efd2382c2a8cc8e06618d062f87f34d6906bc033a7c2c83d76d10fcdeaa899",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ea88563c05b86fe9f48bd0e3a50afd3c5c9521464d1c148a0ed0c6cdd753732f",
-				"dweb:/ipfs/QmSYTassPmrekwLmrtUM1BSck7sNzdL6kcM9dV7MgeyLWw"
+				"bzz-raw://a3408232b8da6e49c34d54e3607a738f7ffc11a0f9487359b1ba253e71e303e9",
+				"dweb:/ipfs/QmR2WY8DWZG7UQpcvt1hGPCVMnisPJ2ssoTscFVHX46xur"
 			]
 		},
 		"exemploCofre/interfaceICofre.sol": {

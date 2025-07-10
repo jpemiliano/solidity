@@ -21,12 +21,12 @@ contract Cliente {
 
     /// @notice Consulta saldo pessoal no Cofre
     function verMeuSaldo() external view returns (uint256) {
-        return ICofre(cofreEndereco).consultarSaldo(msg.sender);
+        return ICofre(cofreEndereco).consultarSaldo(address(this));
     }
 
     /// @notice Solicita saque do Cofre
-    function requisitarSaque(uint256 valor) external {
+    function requisitarSaque(uint256 valor) external payable {
         ICofre(cofreEndereco).sacar(valor);
-        emit Interacao("saque", msg.sender, valor);
+        emit Interacao("saque", address(this), valor);
     }
 }

@@ -71,7 +71,7 @@
 				],
 				"name": "requisitarSaque",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -126,11 +126,11 @@
 	},
 	"sources": {
 		"exemploCofre/contratoCliente.sol": {
-			"keccak256": "0xad5648522538b75e40171e4d15273e4e085c8bc61cc3b2633710a24702ba082e",
+			"keccak256": "0x2487263993f4c243e92cb53b639d41a92df8797e88321a95d5e4fbc790be337f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://01c6e5f32000546036f68e22a2dba598c4a36d83f5d7fcddb04e6b8b63361c54",
-				"dweb:/ipfs/Qmd7kHwEAhm3BLi9kJzMzUfRyJ5KkAEfFyN1fD3Z9dCJiQ"
+				"bzz-raw://51aa5c1eecf34c816fb6307ccb25bdda2f89741bc95d547754b94452840c6c26",
+				"dweb:/ipfs/QmVVx49ab4xEkPs9F9KAFYUED1DrRwpJGUQKTS4Uj8cfQm"
 			]
 		},
 		"exemploCofre/interfaceICofre.sol": {
